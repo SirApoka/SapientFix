@@ -1,5 +1,7 @@
 # Sapient Fix: Compat
 
+![Sapient Fix: Compat](About/Preview.png)
+
 Lets Big and Small's sapient animals use features other mods add to humans.
 
 Unofficial patch, not affiliated with or endorsed by RedMattis. Preview art adapted from Big and Small - Sapient Animals by RedMattis.
