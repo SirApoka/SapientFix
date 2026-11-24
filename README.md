@@ -2,9 +2,21 @@
 
 Lets Big and Small's sapient animals use features other mods add to humans.
 
+Unofficial patch, not affiliated with or endorsed by RedMattis. Preview art adapted from Big and Small - Sapient Animals by RedMattis.
+
+## Why this exists
+
+In my colony, sapient animals stopped eating on their own, even when ravenously hungry. I traced it to Socio Butterfly expecting a component they did not have. Looking further, the same gap was also keeping features from other mods away from them, so this patch fixes the cause instead of that one symptom.
+
+## What it does
+
 Big and Small builds its sapient animal defs (`HL_*`) from `Human`, but keeps only the components listed in its `compWhitelist`. Features that other mods add to `Human` are therefore missing on sapient animals, and some of those mods throw errors when the component is absent.
 
 This mod adds `Human`'s components to that whitelist just before the sapient animals are generated. Other humanlike races are not changed.
+
+## AI disclosure
+
+This mod was coded with AI assistance. I directed the work, made the design decisions and tested it in my own game with about 500 mods.
 
 ## Requirements
 

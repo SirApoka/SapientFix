@@ -9,9 +9,16 @@
   </supportedVersions>
   <description>Lets Big and Small's sapient animals use features other mods add to humans.
 
+WHY THIS EXISTS
+In my colony, sapient animals stopped eating on their own, even when ravenously hungry. I traced it to Socio Butterfly expecting a component they did not have. Looking further, the same gap was also keeping features from other mods away from them, so this patch fixes the cause instead of that one symptom.
+
+WHAT IT DOES
 Big and Small builds its sapient animals from Human, but keeps only the components on its whitelist. Features other mods add to Human are therefore missing on sapient animals, and some of those mods throw errors when the component is absent.
 
 This mod adds Human's components to that whitelist just before the sapient animals are generated. Other humanlike races are not changed.
+
+AI DISCLOSURE
+This mod was coded with AI assistance. I directed the work, made the design decisions and tested it in my own game with about 500 mods. The source code is public so anyone can review it: https://github.com/SirApoka/SapientFix
 
 Tested with:
   - Intimacy - Socio Butterfly: meal times and Dining Together. Also guards the error that stopped sapient pawns from eating on their own.
@@ -21,7 +28,8 @@ Modders can leave a component out with a SapientFix.SapientCompExclusionDef (see
 
 Safe to add to an existing save. This mod stores no data of its own, but the components it enables can save data on your pawns. If you remove it, sapient animals lose those components and the matching features.
 
-Requires Big and Small - Framework with sapient animals enabled (for example by Big and Small - Sapient Animals). Licensed under CC BY-NC 4.0.</description>
+Requires Big and Small - Framework with sapient animals enabled (for example by Big and Small - Sapient Animals). Unofficial patch, not affiliated with or endorsed by RedMattis. Preview art adapted from Big and Small - Sapient Animals by RedMattis. Licensed under CC BY-NC 4.0.</description>
+  <url>https://github.com/SirApoka/SapientFix</url>
   <modDependencies>
     <li>
       <packageId>brrainz.harmony</packageId>
