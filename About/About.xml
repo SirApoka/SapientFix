@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Sapient Fix: Compat</name>
+  <author>SirApoka</author>
+  <packageId>SirApoka.SapientFix</packageId>
+  <modVersion>1.0.0</modVersion>
+  <supportedVersions>
+    <li>1.7</li>
+  </supportedVersions>
+  <description>Lets Big and Small's sapient animals use features other mods add to humans.
+
+Big and Small builds its sapient animals from Human, but keeps only the components on its whitelist. Features other mods add to Human are therefore missing on sapient animals, and some of those mods throw errors when the component is absent.
+
+This mod adds Human's components to that whitelist just before the sapient animals are generated. Other humanlike races are not changed.
+
+Tested with:
+  - Intimacy - Socio Butterfly: meal times and Dining Together. Also guards the error that stopped sapient pawns from eating on their own.
+  - Rules of Engagement: combat stances, loadouts, dual wield, overwatch.
+
+Modders can leave a component out with a SapientFix.SapientCompExclusionDef (see Defs/SapientCompExclusions.xml).
+
+Safe to add to an existing save. This mod stores no data of its own, but the components it enables can save data on your pawns. If you remove it, sapient animals lose those components and the matching features.
+
+Requires Big and Small - Framework with sapient animals enabled (for example by Big and Small - Sapient Animals). Licensed under CC BY-NC 4.0.</description>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+    </li>
+    <li>
+      <packageId>RedMattis.BetterPrerequisites</packageId>
+      <displayName>Big and Small - Framework</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2925432336</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+    <li>lovelydovey.recreation.witheuterpe</li>
+    <li>asunib.rulesofengagement</li>
+    <li>redmattis.betterprerequisites</li>
+    <li>redmattis.sapientanimals</li>
+  </loadAfter>
+</ModMetaData>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <SapientFix.SapientCompExclusionDef>
+    <defName>SapientFix_DefaultCompExclusions</defName>
+    <label>sapient comp exclusions</label>
+    <!-- Human comps this mod must not add to Big and Small's whitelist. Use the full name of the
+         CompProperties type or of the comp class, for example: <li>MyMod.CompProperties_Example</li> -->
+    <excludedComps>
+    </excludedComps>
+  </SapientFix.SapientCompExclusionDef>
+
+</Defs>
