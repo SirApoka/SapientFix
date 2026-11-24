@@ -4,6 +4,8 @@
 
 Lets Big and Small's sapient animals use features other mods add to humans.
 
+Steam Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=3845081561
+
 Unofficial patch, not affiliated with or endorsed by RedMattis. Preview art adapted from Big and Small - Sapient Animals by RedMattis.
 
 ## Why this exists
